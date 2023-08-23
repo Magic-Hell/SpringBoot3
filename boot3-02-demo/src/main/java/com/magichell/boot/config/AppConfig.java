@@ -3,14 +3,13 @@ package com.magichell.boot.config;
 
 import com.alibaba.druid.FastsqlException;
 import com.magichell.boot.bean.User;
-import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.Configuration;
-import org.springframework.context.annotation.Import;
-import org.springframework.context.annotation.Scope;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.context.annotation.*;
 
 @Import(FastsqlException.class)  //给容器中放指定类型的组件，组建的名字默认是全类名
-@Configuration  //这是一个配置类
+@SpringBootApplication//这是一个配置类
 public class AppConfig {
+
 
 
     /**
@@ -26,7 +25,10 @@ public class AppConfig {
          return user;
      }
 
-
+//     @Bean
+//     public FastsqlException fastsqlException(){
+//        return new FastsqlException();
+//     }
 
 
 }

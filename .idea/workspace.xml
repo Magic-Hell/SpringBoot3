@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="927086f4-5cbd-4e0b-b208-77ed3f6d2855" name="更改" comment="">
-      <change afterPath="$PROJECT_DIR$/boot3-01-demo/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/bean/Cat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/bean/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/config/AppConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/resources/ioc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/bean/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/bean/Pig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/config/AppConfig2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-01-demo/src/main/java/com/magichell/boot/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-01-demo/src/main/java/com/magichell/boot/MainApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-01-demo/target/classes/com/magichell/boot/MainApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-01-demo/target/classes/com/magichell/boot/MainApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/boot3-02-demo/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-02-demo/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/Boot302DemoApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/Boot302DemoApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/config/AppConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/java/com/magichell/boot/config/AppConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/boot3-02-demo/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/boot3-02-demo/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,14 +74,22 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "项目",
+    "project.structure.last.edited": "模块",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "MavenSettings",
-    "spring.configuration.checksum": "50dfb4ba7ac7178e366242081f7d2ad7",
+    "settings.editor.selected.configurable": "File.Encoding",
+    "spring.configuration.checksum": "d02bf50ed6d4e15b444911509e66edfb",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.magichell.boot" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.magichell.boot.bean" />
+    </key>
+  </component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -125,7 +133,8 @@
       <option name="presentableId" value="Default" />
       <updated>1692772970217</updated>
       <workItem from="1692772974266" duration="2528000" />
-      <workItem from="1692775827833" duration="5453000" />
+      <workItem from="1692775827833" duration="7619000" />
+      <workItem from="1692789014344" duration="4058000" />
     </task>
     <servers />
   </component>
@@ -134,5 +143,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

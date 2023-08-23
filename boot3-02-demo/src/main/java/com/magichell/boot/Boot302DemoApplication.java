@@ -1,11 +1,14 @@
 package com.magichell.boot;
 
-import com.alibaba.druid.FastsqlException;
-import com.magichell.boot.bean.User;
+import com.magichell.boot.bean.*;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.web.bind.annotation.RestController;
+
 
 @SpringBootApplication
+@RestController
 public class Boot302DemoApplication {
 
 	public static void main(String[] args) {
@@ -15,11 +18,22 @@ public class Boot302DemoApplication {
 //			System.out.println(beanDefinitionName);
 //		}
 
-		String[] forType = ioc.getBeanNamesForType(FastsqlException.class);
-		for (String s : forType){
-			System.out.println(s);
+//		String[] forType = ioc.getBeanNamesForType(FastsqlException.class);
+//		for (String s : forType){
+//			System.out.println(s);
+//		}
+
+		for (String s : ioc.getBeanNamesForType(Cat.class)) {
+			System.out.println("cat:" + s);
 		}
 
+		for (String s : ioc.getBeanNamesForType(Dog.class)) {
+			System.out.println("dog:" + s);
+		}
+
+		Pig pig = ioc.getBean(Pig.class);
+		System.out.println(pig);
+		
 
 	}
 
